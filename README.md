@@ -8,7 +8,7 @@ To install the required dependencies, run the following commands:
 <!-- blockquote -->
 >sudo dnf install ninja-build cmake meson gcc-c++ libxcb-devel libX11-devel pixman-devel wayland-protocols-devel cairo-devel pango-devel
 
-Dependencies for newer versions (tested of Fedora 38)
+Dependencies for newer versions (tested on Fedora 38)
 
 <!-- blockquote -->
 >sudo dnf groupinstall "Development Tools" "Development Libraries" ; sudo dnf install libdrm-devel libxkbcommon-devel libinput-devel vulkan-devel egl-wayland-devel mesa-libEGL-devel  libdisplay-info-devel xorg-x11-server-Xwayland-devel hwdata-devel libliftoff-devel 'pkgconfig(wayland-server)'
